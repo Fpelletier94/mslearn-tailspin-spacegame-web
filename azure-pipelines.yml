@@ -58,8 +58,3 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
   
-- task: DownloadFileshareArtifacts@1
-  inputs:
-    filesharePath: 'https://staso365-my.sharepoint.com/:f:/g/personal/pelletier_francis_stas_com/Emzy3zLu9d9Bhky0OCgIco4Bg6qLkngckP2MGGBBCIHOfg?e=HoJcli'
-    artifactName: 'drop'
-    downloadPath: '$(System.ArtifactsDirectory)'
